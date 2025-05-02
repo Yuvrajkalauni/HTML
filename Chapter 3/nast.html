@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAST</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ff3333;
+        }
+
+        header div {
+            margin-top: 10px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header a:hover {
+            color: #ff3333;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        big {
+            font-size: 24px;
+            font-weight: bold;
+            color: #003366;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+            margin: 20px 0;
+            border: 5px solid #003366;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px auto;
+            width: 80%;
+            line-height: 1.6;
+        }
+
+        pre {
+            background-color: #e6f0ff;
+            padding: 15px;
+            border-left: 5px solid #ff3333;
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showImageAlert() {
+            alert("You clicked on the NAST image!");
+        }
+
+        window.onload = function () {
+            const img = document.querySelector("img");
+            img.addEventListener("click", showImageAlert);
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1>NAST</h1>
+        <div>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/Contact">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div>
+            <big>We provide quality education</big>
+        </div>
+        <img src="https://nast.edu.np/wp-content/uploads/2024/07/1708434571036-1-scaled.jpg" alt="NAST Campus Image">
+
+        <p>
+            National Academy of Science and Technology, popularly known as NAST, is a QAA Certified,
+            English medium co-educational institution. Patroned and promoted by a team of academicians,
+            researchers and professionals renowned both at home and abroad, NAST has proved itself as a centre 
+            of learning for academic excellence in the field of science, technology and management.
+        </p>
+        <pre>
+<b>We feel pleasure to state that we have been pioneering engineering education in the country’s western region.</b>
+
+2000 A.D. : Bachelor of Computer Engineering (Pokhara University)
+2001 A.D. : Bachelor of Computer Application (BCA)
+2008 A.D. : Bachelor of Business Administration (BBA)
+2010 A.D. : Bachelor of Civil Engineering (BE Civil)
+2022 A.D. : QAA Certified by UGC Nepal
+2024 A.D. : Master of Business Administration (MBA)
+        </pre>
+    </main>
+    <footer>
+        © Copyright NAST. All Rights Reserved
+    </footer>
+</body>
+</html>
