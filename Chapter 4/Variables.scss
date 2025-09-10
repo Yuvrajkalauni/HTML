@@ -1,0 +1,18 @@
+$paragraph: red;
+$list:green;
+
+div{
+    h3{
+        color: $paragraph;
+    }
+    ol{
+        color: $list;
+    }
+
+}
+h3{
+    color: $paragraph;
+}
+ul{
+    color: $list;
+}
