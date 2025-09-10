@@ -1,5 +1,13 @@
-ol {
+div h3 {
+  color: red;
+}
+
+div ol {
   color: green;
+}
+
+h3 {
+  color: red;
 }
 
 ul {
